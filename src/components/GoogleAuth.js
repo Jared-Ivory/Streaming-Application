@@ -56,7 +56,7 @@ class GoogleAuth extends React.Component {
                 onClick={this.onSignInClick}
             >
                 <i className="google icon"></i>
-                Sign In With Google
+                Sign In with Google
             </button>
         );
     }
@@ -70,7 +70,4 @@ const mapStateToProps = state => {
     return { isSignedIn: state.auth.isSignedIn };
 };
 
-export default connect(
-    mapStateToProps,
-    { signIn, signOut }
-)(GoogleAuth);
+export default connect(mapStateToProps, { signIn, signOut })(GoogleAuth);
