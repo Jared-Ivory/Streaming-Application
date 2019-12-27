@@ -5,7 +5,10 @@ import GoogleAuth from './GoogleAuth';
 
 const Header = () => {
     return (
-        <div className="ui secondary pointing menu">
+        <div
+            className="ui secondary pointing menu"
+            style={{ paddingTop: '5px' }}
+        >
             <Link to="/" className="item">
                 Streamy
             </Link>
