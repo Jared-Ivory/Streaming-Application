@@ -23,16 +23,16 @@ npm run demo
 ## How to use
 To create a stream:
 Click on the 'Create Stream' button and provide a title and description:
-![Create a stream](screenshots\screenshot-02.png)
+![Create a stream](screenshots/screenshot-02.png)
 
 To view a stream:
 Click on the top bar where it says 'All Streams' and click on the corresponding links to streams:
-![View a stream](screenshots\screenshot-01.png)
+![View a stream](screenshots/screenshot-01.png)
 *Note: the address bar contains the id of the selected stream when you go to view a stream*
 
 To stream to the application:
 By setting up your streaming service to stream to the server `rtmp://localhost/live` with the stream key being the ID created by using the application, (Click the stream and look at the id in the address bar), you can view the stream.
-![How to stream](screenshots\gif-01.gif)
+![How to stream](screenshots/gif-01.gif)
 
 ## Created using
 * [React](https://reactjs.org/) - Frontend Framework
